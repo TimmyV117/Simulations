@@ -29,6 +29,7 @@ sim_magnitude_median = []
 
 
 def main():
+    """Main function that will tie everything together"""
     global sim_num_molds, sim_which_molds, sim_magnitude
     avg_mag()
     sim_num_molds.append(len(mold_id) - num_removed)
@@ -36,6 +37,7 @@ def main():
     sim_which_molds.append(list(kept_molds))
 
 def drop_molds():
+    """Randomly (Mersenne Twister) chooses which molds will be of interest"""
     global mold_id, kept_molds, num_removed
     # second term in keep index is the random generation of number of molds to take out
     z.shuffle(mold_id)
@@ -45,6 +47,7 @@ def drop_molds():
     return kept_molds
 
 def avg_mag():
+    """Calculates some descriptive stats about the output of interest"""
     global rand_df, avgmag, medianmag
     a=list(drop_molds()) #will I have to turn this into a list?
     df=rand_df[rand_df.cure.isin(a)]
