@@ -13,6 +13,5 @@ A congressional candidate, who was an advocate for affordable medications, raise
 
 ## To Recreate / Run
 
-Run the `Makefile` inside each project folder. Projects were conducted in 2017 so, build is based on python 3.6
-
+Run the `Makefile` inside each project folder. Python files marked as `main.py` indicate the singular script to use to reproduce results. However, there are other notebooks and files that can be explored to understand further analysis.
 
