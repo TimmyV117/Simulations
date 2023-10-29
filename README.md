@@ -11,3 +11,8 @@ A project conducted in 2017 to understand the variability of different tire mold
 A congressional candidate, who was an advocate for affordable medications, raised awareness by running 100 miles from a part of Ohio to Columbus to deliver a petition to the State Capitol. To help increase coverage, I built a stochastic simulation to predict the arrival times of certain areas for local news to find the candidate. Results were within 5 minutes of the actual area arrival time until mile 65 where an unexpected road detour added additional time and distance. Re-running the analysis at the time of hearing about the detour, was able to predict a final State Capitol arrival within 20 minutes of actual arrival.
 
 
+## To Recreate / Run
+
+Run the `Makefile` inside each project folder. Projects were conducted in 2017 so, build is based on python 3.6
+
+
